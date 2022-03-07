@@ -1,0 +1,33 @@
+{
+  "name": "js-to-ts-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naderkamelaponar/js-to-ts-2.git"
+  },
+  "keywords": [
+    "fix",
+    "typescript",
+    "file"
+  ],
+  "author": "Udacity , Nader Kamel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naderkamelaponar/js-to-ts-2/issues"
+  },
+  "homepage": "https://github.com/naderkamelaponar/js-to-ts-2#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
